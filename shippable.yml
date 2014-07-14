@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 1.9.3
+  - 2.1.2
 
 env:
   global:
@@ -11,7 +11,7 @@ env:
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
-before_script: 
+before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
   - psql -c 'create database "sample-rubyonrails-postgres-heroku_test";' -U postgres
