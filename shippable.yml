@@ -6,7 +6,7 @@ env:
   global:
     - APP_NAME=morning-wave-1449
     - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
-    - secure: Pmvl+gDkPWUALWkd7whBjSf8dZHtEH8btBGIlCxHN7MDTQ6KI9HmUF1YfZSXqXf50cdZYhgm9YJLoLFW22iS00B8Ci6r495OzzWfiaNiX00SKugyB3xgRCyPyhhcH+uduA9wQd+o8ODnLs+j5/+Q1mWUsRUoZgtfZ43aZf82rLzUrOlJQShUOBCLHUM6GoiZO9nsgo6t7Mg/xTVW+E2JujNilGHvOLoUghaNnfF2OU4t6fdP/Qqk8bAE+mBFk9AUk0rpoYCG+AW+wcFSCbJJNpb7SrqL3J3aM1p6PjNohOJJ183Qw3r5h55TAs2Sz/BqLI6v2ygdI38DVovOZsKbSg==
+    - secure: K1fahMcyYemBsbUlLVyo+drg+tA5mMzcyABYWR1idyMuLGMGpOVQvzfk2pC36zb115YJKspGQZXMaLIiGKDhKTmeUYyuvjRzhGBLogR8qbWbAHxnvFyZvbUu1TssDEbVpiJ45vQ5kdWv+sF6NJN3xM2561eGsDg0A0tV8UXAb6r+MJUCPthsvuB0CXBpckFQpY/kFePpRcx2RShqdFwx9EGM+c72U92b0+FI4bYrpUhdMaxo5wBAG9MVG+A0S/XQGBDpFv++czq4pXp6Xnr7Bq69fXVy4AB36rtGaLoWl7SdHrqjK3UQIz47TNgWyyFmYDEiEt7c+ua5LdXxy5gIMA==
 
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
