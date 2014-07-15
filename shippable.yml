@@ -4,7 +4,7 @@ rvm:
 
 env:
   global:
-    - APP_NAME=fierce-plains-1014
+    - APP_NAME=morning-wave-1449
     - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
     - secure: Pmvl+gDkPWUALWkd7whBjSf8dZHtEH8btBGIlCxHN7MDTQ6KI9HmUF1YfZSXqXf50cdZYhgm9YJLoLFW22iS00B8Ci6r495OzzWfiaNiX00SKugyB3xgRCyPyhhcH+uduA9wQd+o8ODnLs+j5/+Q1mWUsRUoZgtfZ43aZf82rLzUrOlJQShUOBCLHUM6GoiZO9nsgo6t7Mg/xTVW+E2JujNilGHvOLoUghaNnfF2OU4t6fdP/Qqk8bAE+mBFk9AUk0rpoYCG+AW+wcFSCbJJNpb7SrqL3J3aM1p6PjNohOJJ183Qw3r5h55TAs2Sz/BqLI6v2ygdI38DVovOZsKbSg==
 
