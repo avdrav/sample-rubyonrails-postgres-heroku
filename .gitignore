@@ -6,6 +6,7 @@
 
 #ignore rvm
 /.rvmrc
+/.ruby-*
 
 # Ignore bundler config.
 /.bundle
