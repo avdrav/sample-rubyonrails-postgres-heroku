@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+html body {
+  background: url('seattle-port-rainier.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
